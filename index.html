@@ -158,6 +158,8 @@ Use page breaks at the end of each poem instead of hard returns.
      </div>
      <div>
          <h1>Travel Form For Our Trip</h1>
+         
+         <br>
          <form action="form.php" >
              <input type="text"placeholder="Enter Your Name"><br>
                
@@ -173,10 +175,18 @@ Use page breaks at the end of each poem instead of hard returns.
                  <input type="radio" value="Section c" name="section" id="sectionidc">Section C
                </label><br>
                
-               <input type="checkbox" id="foodcanteen" class="red" name="foodcanteen">
+              
+                <input type="checkbox" id="foodcanteen" class="red blue" name="foodcanteen">
                  <label for="foodcanteen"> Want Food Canteen Card </label>
-                 
-               </label>
+                 <!--https://developer.mozilla.org/en-US/docs/Web/HTML-->
+                 <textarea name="explain" id="explain" cols="30" rows="10" placeholder="explain why you want to join"></textarea>
+                 <select name="car" id="car">
+                     <option value="no-car"> Select your car </option>
+                     <option value="BMW"> BMW </option>
+                     <option value="i10">i10</option>
+                     <option value="i20">i20 </option>
+                     <option value="Fortuner"> Fortuner </option>
+                 </select>
          </form>
      </div>
 </body>
